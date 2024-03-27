@@ -17,29 +17,6 @@ type ClientInterface interface {
 	GetBaseURL() string
 }
 
-// TODO: Lever audit events client interface
-// TODO: Lever EEO questions client interface
-// TODO: Lever feedback forms client interface
-// TODO: Lever feedback templates client interface
-// TODO: Lever files client interface
-// TODO: Lever form fields client interface
-// TODO: Lever interviews client interface
-// TODO: Lever notes client interface
-// TODO: Lever offers client interface
-// TODO: Lever panels client interface
-// TODO: Lever postings client interface
-// TODO: Lever posting forms client interface
-// TODO: Lever profile forms client interface
-// TODO: Lever profile form templates client interface
-// TODO: Lever referrals client interface
-// TODO: Lever requisitions client interface
-// TODO: Lever requisition fields client interface
-// TODO: Lever resumes client interface
-// TODO: Lever sources client interface
-// TODO: Lever surveys client interface
-// TODO: Lever uploads client interface
-// TODO: Lever webhooks client interface
-
 // Actual client implementation
 type Client struct {
 	// The base URL for the client.
